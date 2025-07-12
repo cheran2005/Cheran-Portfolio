@@ -416,11 +416,12 @@ body {
   left:0;
   background: rgba(0, 0, 0, 0.7);
   width:100vw;
-  height:100vh;
+  height:100dvh;
   z-index: 5;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-y: scroll;
 }
 
 .background-blur.active{
@@ -906,7 +907,7 @@ iframe {
     font-size: 5.5px;
   }
   .logo{
-    font-size:15px;
-  }
+    font-size:20px;
+}
 
 }
