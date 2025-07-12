@@ -476,7 +476,7 @@ body {
 }
 
 
-.video-container,.img-container{
+.video-container{
   width:90%;
   height:80%;
   display:flex;
@@ -532,7 +532,7 @@ iframe {
 }
 .tech-stack{
   margin-top: auto;
-  margin-bottom:10rem;
+  margin-bottom:2rem;
   padding-top:3rem;
   color:rgb(253, 122, 0);
   display: flex;
@@ -606,7 +606,6 @@ iframe {
 .demo-img{
   object-fit: contain;
   margin: 0;
-  padding-bottom: 3rem;
   width:40rem;
   height:50rem; 
 }
@@ -766,8 +765,8 @@ iframe {
   }
 
   .demo-img{
-    width:35rem;
-    height:45rem; 
+    width:40rem;
+    height:50rem; 
   }
 
   .exit-button-overlay-box{
@@ -877,6 +876,7 @@ iframe {
     height:20dvh;
   }
 
+
   .project-title-section .project-card-img{
     width:6.5rem;
     height:6.5rem;
@@ -900,12 +900,10 @@ iframe {
   }
 
   .video-container{
-  height:50%;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+    height:50%;
+
+  }
+
 
 }
 
