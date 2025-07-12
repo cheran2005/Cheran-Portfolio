@@ -476,7 +476,7 @@ body {
 }
 
 
-.video-container{
+.video-container,.img-container{
   width:90%;
   height:80%;
   display:flex;
@@ -905,6 +905,10 @@ iframe {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.img-container{
+  height:70%;
 }
 }
 
