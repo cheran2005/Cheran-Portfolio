@@ -473,7 +473,10 @@ body {
   box-sizing: border-box;
   padding: 0rem 1rem;
 }
-
+.hidden-box-left .project-title-section{
+  display: inline-block;
+  padding:0;
+}
 
 .video-container{
   width:90%;
@@ -513,12 +516,14 @@ iframe {
 
 .project-title-section{
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-size: 2rem;
   gap:1rem;
+
+  width:100%;
 }
 
 
@@ -527,7 +532,6 @@ iframe {
   color:rgb(253, 122, 0);
   width:8.5rem;
   height:8.5rem;
-  
 }
 .tech-stack{
   margin-top: auto;
@@ -759,8 +763,7 @@ iframe {
   }
 
   .project-title-section{
-    font-size: 1.5rem;
-  
+    font-size: 2rem;;
   }
 
   .demo-img{
