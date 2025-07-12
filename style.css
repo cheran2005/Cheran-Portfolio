@@ -900,8 +900,12 @@ iframe {
   }
 
   .video-container{
-    height:13dvh;
-  }
+  height:50%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 }
 
 
