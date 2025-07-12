@@ -898,6 +898,10 @@ iframe {
   .project-card-title{
     font-size:3rem;
   }
+
+  .video-container{
+    height:13dvh;
+  }
 }
 
 
