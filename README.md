@@ -5,7 +5,7 @@ Cheran Balakrishnan's Portfolio Website
 Welcome to my personal portfolio! This website showcases my projects in web development, machine learning, and systems programming.
 
 Live Demo:
-Visit My Website: https://your-portfolio-link.com
+Visit My Website: https://cheran2005.github.io/Cheran-Portfolio/
 
 Tech Stack:
 - HTML5
