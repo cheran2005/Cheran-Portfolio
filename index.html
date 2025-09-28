@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href ="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <title>Cheran's Portfolio</title>
+</head>
+
+<body id="About-Me">
+    <!-- ======= Navbar ======= -->
+    <nav class="navbar">
+
+        <!-- ======= Navbar Left Side======= -->
+        <div class="left-navbar">
+            <a href="#About-Me" class="logo roboto-mono-hard" title="Start Of Web Page">💻Cheran</a>
+        </div>
+
+        <!-- ======= Navbar Right Side======= -->
+        <div class="right-navbar">
+            <a href="https://github.com/cheran2005" target="_blank" class="right-navbar-title roboto-mono-medium" title="View My GitHub"><img  src="assets/images/github.png" class="navbar-img-github" alt="GitHub Symbol" ><span class="hide-text-w-small">GitHub</span></a>
+            <a href="https://www.linkedin.com/in/cheran-balakrishnan-a2b8ab2b1/" target="_blank" class="right-navbar-title2 roboto-mono-medium"  title="View My LinkedIn"><img  src="assets/images/Linkdin.png" class="navbar-img" alt="LinkedIn Symbol"><span class="hide-text-w-small">LinkedIn</span></a>
+        </div>
+
+    </nav>
+
+
+    <!-- ======= Main Content ======= -->
+    <main>
+        
+        <!-- ======= About Me Section ======= -->
+        <div class="my-background-1">
+
+            <section class="about-me-card" >
+
+                <div class="about-me-inner">
+
+                    <div class="about-me-inner-left">
+                        <img  src="assets/images/IMG_9690.jpg" class="me-img" alt="Headshot Of Cheran">
+                    </div>
+
+                    <div class="about-me-inner-right">
+                        <h2 class="about-me-heading-message roboto-mono-medium ">👋 Hi, I'm Cheran</h2>
+                        <p class="about-me-message roboto-mono-soft">
+                        I'm a passionate software engineer specializing in systems programming,
+                        machine learning, and full-stack web development. I enjoy solving practical challenges by developing efficient, user-friendly tools that people can rely on. 
+                        <a href="#projects" class="check-side-project-link" title="View My Side-Projects">Check out my side-projects below!</a>
+                        </p>
+                        <h2 class="skills-label-top roboto-mono-hard">Skills: </h2>
+                        <div class="skills">
+                            <h2 class="skills-label roboto-mono-hard">Skills: </h2>
+                            <div class="skill-box roboto-mono-medium">C</div> 
+                            <div class="skill-box roboto-mono-medium">Python</div>
+                            <div class="skill-box roboto-mono-medium">JavaScript</div>
+                            <div class="skill-box roboto-mono-medium">Java</div>  
+                            <div class="skill-box roboto-mono-medium">React</div> 
+                            <div class="skill-box roboto-mono-medium">Flask</div>
+                            <div class="skill-box roboto-mono-medium">Linux</div>
+                            <div class="skill-box roboto-mono-medium">Git</div>  
+                        </div>
+                       
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+
+        <!-- ======= Projects Section ======= -->
+        <div class="my-background-2">
+
+            <h1 id="projects" class="projects-title roboto-mono-hard">Projects</h1>
+
+            <!-- project section with different project boxes for specific technologies -->
+
+            <!-- C Projects -->
+            <div class="project-box">
+                <h1 class="project-box-title roboto-mono-medium">C Projects</h1>
+                <div class="project-scroll-bar ">
+                        
+                        <!-- Mini-SHell Project -->
+                        <div class="project-card" data-box ="mini-shell-box">
+                            <img src="assets/images/mini_shell_symbol.png" class ="project-card-img" alt="Mini-Shell Symbol">
+                            <h2 class="project-card-title roboto-mono-medium">Custom Mini-Shell</h2>
+                            <p class="project-mini-description roboto-mono-soft">A custom-built mini shell implemented in C that mocks basic shell behaviour such as redirection, piping, background processes and more.</p>
+                            <h2 class="project-card-more-details roboto-mono-medium">More Details</h2>
+                        </div>
+
+                        <!-- Chat-App Project -->
+                        <div data-box ="chat-app-box" class="project-card">
+                            <img src="assets/images/chat_symbol.png" class ="project-card-img" alt="Chat-App Symbol">
+                            <h2 class="project-card-title roboto-mono-medium">Chat-App</h2>
+                            <p class="project-mini-description roboto-mono-soft">Simple multi-client chat application written in C using sockets and POSIX threads. It allows multiple clients to connect and send messages in real time, demonstrating key concepts in network programming and concurrency.</p>
+                            <h2 class="project-card-more-details roboto-mono-medium">More Details</h2>
+                        </div> 
+
+                        <!-- Multi-Thread Downloader Project -->
+                        <div data-box ="multi-thread-downloader-box" class="project-card" >
+                            <img src="assets/images/multi_thread_download_symbol.png" class ="project-card-img" alt="Multi-Thread Downloader Symbol">
+                            <h2 class="project-card-title roboto-mono-medium">Multi-Thread Downloader</h2>
+                            <p class="project-mini-description roboto-mono-soft">Multi-threaded file downloader built in C using pthreads and libcurl. It reads URLs from a file (downloads.txt by default), spawns multiple threads, and downloads each file concurrently.</p>
+                            <h2 class="project-card-more-details roboto-mono-medium">More Details</h2>
+                        </div>
+
+                        <!-- Custom Malloc Project -->
+                        <div data-box ="custom-malloc()-box" class="project-card" >
+                            <img src="assets/images/malloc-symbol.png" class ="project-card-img" alt="Malloc Symbol">
+                            <h2 class="project-card-title roboto-mono-medium">Custom Malloc()</h2>
+                            <p class="project-mini-description roboto-mono-soft">A custom memory allocator implemented in C, replicating core functionality of malloc() and free(). It operates by managing heap memory manually using "sbrk()", and organizes allocations with a doubly linked list of memory blocks.</p>
+                            <h2 class="project-card-more-details roboto-mono-medium">More Details</h2>
+                        </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ======= Projects Section hidden box's ======= -->
+        <div class="background-blur" id="background-blur">
+                
+            <!-- ======= Exit Button From Hidden Box's Overlay======= -->
+            <div class="exit-button-container" >
+                <button  id="exit-overlay" class="exit-button-overlay-box">X</button>
+            </div>
+
+            <!-- ======= Hidden Box for Mini-Shell Card======= -->
+            <div class="hidden-box" id="mini-shell-box" >
+
+                <div class="hidden-box-left ">
+                    <div class="project-title-section">
+                        <img src="assets/images/mini_shell_symbol.png" class ="project-card-img" alt="Mini-Shell Symbol">
+                        <h1 class="project-hidden-box-title roboto-mono-hard">Custom Mini-Shell</h1>
+                    </div>
+
+                    <p class="hidden-box-Description roboto-mono-soft">A custom-built mini shell implemented in C that mocks basic shell behaviour such as redirection, piping, background processes and more.</p>
+
+                    <div class="tech-stack">
+                        <h2 class="tech-label roboto-mono-hard">Tech-Stack: </h2>
+                        <div class="tech-box roboto-mono-medium">C</div> 
+                    </div>
+
+
+                </div>
+
+                <div class="hidden-box-right">
+                    <div class="video-container">
+                        <iframe  src="https://www.youtube.com/embed/YC7_hoHj5zo?si=x9sx4vtKdKwA-mCa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+                    </div>
+
+                    <a href="https://github.com/cheran2005/Mini_Shell" target="_blank" class="right-navbar-title roboto-mono-medium" title="View GitHub Project Page"><img  src="assets/images/github.png" class="navbar-img-github" alt="GitHub Symbol">GitHub</a>
+
+                </div>
+
+            </div>
+
+            <!-- ======= Hidden Box for Chat-App Card======= -->
+            <div class="hidden-box" id="chat-app-box" >
+                <div class="hidden-box-left">
+                    <div class="project-title-section">
+                        <img src="assets/images/chat_symbol.png" class ="project-card-img" alt="Chat-App Symbol">
+                        <h1 class="project-hidden-box-title roboto-mono-hard">Custom Chat-App</h1>
+                    </div>
+
+                    <p class="hidden-box-Description roboto-mono-soft">Simple multi-client chat application written in C using sockets and POSIX threads. It allows multiple clients to connect and send messages in real time, demonstrating key concepts in network programming and concurrency.</p>
+
+                    <div class="tech-stack">
+                        <h2 class="tech-label roboto-mono-hard">Tech-Stack: </h2>
+                        <div class="tech-box roboto-mono-medium">C</div> 
+                    </div>
+                </div>
+
+                <div class="hidden-box-right">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/r-mLFFSmdJY?si=adIv0E_5msdDSN7X&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <a href="https://github.com/cheran2005/Chat-App" target="_blank" class="right-navbar-title roboto-mono-medium" title="View GitHub Project Page"><img  src="assets/images/github.png" class="navbar-img-github" alt="GitHub Symbol">GitHub</a>
+                </div>
+            </div>
+
+            <!-- ======= Hidden Box for Multi-Thread Downloader Card======= -->
+            <div class="hidden-box" id="multi-thread-downloader-box" >
+                <div class="hidden-box-left">
+                    <div class="project-title-section">
+                        <img src="assets/images/multi_thread_download_symbol.png" class ="project-card-img" alt="Multi-Thread Downloader Symbol">
+                        <h1 class="project-hidden-box-title roboto-mono-hard">Multi-Thread Downloader</h1>
+                    </div>
+
+                    <p class="hidden-box-Description roboto-mono-soft">Multi-threaded file downloader built in C using pthreads and libcurl. It reads URLs from a file (downloads.txt by default), spawns multiple threads, and downloads each file concurrently.</p>
+
+                    <div class="tech-stack">
+                        <h2 class="tech-label roboto-mono-hard">Tech-Stack: </h2>
+                        <div class="tech-box roboto-mono-medium">C</div> 
+                    </div>
+                </div>
+
+                <div class="hidden-box-right">
+
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/wcEpOWS3N7U?si=wcb-7g1YOR3Ki9cz"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                    <a href="https://github.com/cheran2005/Mutlithread-downloader" target="_blank" class="right-navbar-title roboto-mono-medium" title="View GitHub Project Page"><img  src="assets/images/github.png" class="navbar-img-github" alt="GitHub Symbol">GitHub</a>
+                </div>
+
+            </div>
+                
+            <!-- ======= Hidden Box for Custom Malloc Card======= -->
+            <div class="hidden-box" id="custom-malloc()-box" >
+                <div class="hidden-box-left">
+
+                    <div class="project-title-section">
+                        <img src="assets/images/malloc-symbol.png" class ="project-card-img" alt="Malloc Symbol">
+                        <h1 class="project-hidden-box-title roboto-mono-hard">Custom Malloc()</h1>
+                    </div>
+
+                    <p class="hidden-box-Description roboto-mono-soft">A custom memory allocator implemented in C, replicating core functionality of malloc() and free(). It operates by managing heap memory manually using "sbrk()", and organizes allocations with a doubly linked list of memory blocks.</p>
+
+                    <div class="tech-stack">
+                        <h2 class="tech-label roboto-mono-hard">Tech-Stack: </h2>
+                        <div class="tech-box roboto-mono-medium">C</div> 
+                    </div>
+                </div>
+
+                <div class="hidden-box-right">
+                    
+                    <div class="video-container">
+                        <img src="assets/images/DEMO-Malloc.PNG" class="demo-img" alt="Custom Malloc Demo Image">
+                    </div>
+
+                    <a href="https://github.com/cheran2005/Custom_Malloc" target="_blank" class="right-navbar-title roboto-mono-medium" title="View GitHub Project Page"><img  src="assets/images/github.png" class="navbar-img-github" alt="GitHub Symbol">GitHub</a>
+
+                </div>
+
+            </div>   
+        </div>
+
+
+    </main>
+
+    <footer class="foot-background">
+
+        <div class="footer-content">
+
+            <p class="footer-text roboto-mono-hard">Contact me: cheranB1@gmail.com</p>
+            <div class="footer-links">
+                <a href="https://github.com/cheran2005" target="_blank" class="roboto-mono-medium footer-link" title="View My GitHub"><img  src="assets/images/github.png" class="navbar-img-github" alt="GitHub Symbol" >GitHub</a>
+                <a href="https://www.linkedin.com/in/cheran-balakrishnan-a2b8ab2b1/" target="_blank" class="roboto-mono-medium footer-link"  title="View My LinkedIn"><img  src="assets/images/Linkdin.png" class="navbar-img" alt="LinkedIn Symbol">LinkedIn</a>
+            </div>
+
+            <p class="footer-text " >© 2025 Cheran Balakrishnan. All rights reserved.</p>
+        </div>
+
+    </footer>
+    
+    <!-- ======= Connecting JavaScript File======= -->
+    <script  src="script.js"></script>
+
+</body>
+
+</html>
